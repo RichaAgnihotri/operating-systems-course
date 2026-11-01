@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Operating Systems Theory - BTECCE23501, Semester V, Vishwakarma University, Pune.">
+<title>Operating Systems | BTECCE23501</title>
+<style>
+:root{--navy:#102a43;--blue:#1769aa;--sky:#eaf4fb;--ink:#243b53;--muted:#627d98;--paper:#f7fafc;--white:#fff;--line:#d9e2ec;--gold:#f0b429}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+a{color:var(--blue)}.wrap{width:min(1120px,92%);margin:auto}
+header{background:var(--navy);color:white;position:sticky;top:0;z-index:5;box-shadow:0 3px 14px #102a4326}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:13px 0}.brand{font-weight:800;letter-spacing:.2px}.brand small{display:block;font-weight:500;color:#c9d9e8;font-size:.75rem}
+nav{display:flex;gap:16px;flex-wrap:wrap}nav a{color:#eaf4fb;text-decoration:none;font-size:.9rem}nav a:hover{text-decoration:underline}
+.hero{background:linear-gradient(125deg,#102a43,#1769aa);color:white;padding:68px 0 62px}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:.76rem;font-weight:700;color:#c5e4fa}
+h1{font-size:clamp(2.2rem,5vw,3.7rem);line-height:1.08;margin:12px 0}.hero p{max-width:720px;color:#e3eff8;font-size:1.08rem}
+.pills{display:flex;gap:9px;flex-wrap:wrap;margin:22px 0}.pill{border:1px solid #ffffff70;border-radius:999px;padding:6px 12px;font-size:.85rem}
+.btn{display:inline-block;background:var(--gold);color:#102a43;text-decoration:none;font-weight:800;padding:11px 17px;border-radius:8px;margin-top:8px}
+section{padding:48px 0;scroll-margin-top:78px}.section-head{margin-bottom:22px}h2{font-size:1.8rem;color:var(--navy);margin:0 0 6px}.lead{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border:1px solid var(--line);border-radius:13px;padding:20px;box-shadow:0 5px 18px #102a4308}.card h3{margin:0 0 8px;color:var(--navy);font-size:1.08rem}.metric{font-size:1.7rem;font-weight:800;color:var(--blue)}
+.outcomes{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.outcome{background:white;border-left:4px solid var(--blue);padding:14px 16px;border-radius:8px}
+.unit{background:white;border:1px solid var(--line);border-radius:12px;margin:12px 0;overflow:hidden}.unit summary{cursor:pointer;padding:16px 18px;font-weight:800;color:var(--navy);background:#f0f6fb}.unit summary span{float:right;color:var(--blue);font-size:.9rem}.unit-content{padding:8px 20px 16px}.unit-content ul{margin:8px 0}
+table{width:100%;border-collapse:collapse;background:white;border-radius:10px;overflow:hidden}th,td{text-align:left;padding:12px 13px;border-bottom:1px solid var(--line);vertical-align:top}th{background:var(--navy);color:white;font-size:.9rem}tr:last-child td{border-bottom:0}.tag{display:inline-block;background:var(--sky);color:#14558a;border-radius:5px;padding:2px 7px;font-size:.78rem;font-weight:700}
+.resource-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.resource{background:white;border:1px solid var(--line);padding:16px;border-radius:10px}.resource a{font-weight:700;text-decoration:none}.resource a:hover{text-decoration:underline}.resource p{margin:5px 0 0;color:var(--muted);font-size:.9rem}
+.assessment{display:grid;grid-template-columns:1fr 1fr;gap:18px}.assessment .card ul{padding-left:20px}
+.contact{background:var(--navy);color:white;border-radius:16px;padding:28px}.contact h2{color:white}.contact a{color:#b9e2ff}.note{font-size:.88rem;color:var(--muted)}
+footer{padding:24px 0;background:#0b1f33;color:#c9d9e8;font-size:.86rem;text-align:center}
+@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}nav{gap:10px}.grid{grid-template-columns:1fr}.outcomes,.resource-list,.assessment{grid-template-columns:1fr}section{padding:36px 0}th,td{padding:9px;font-size:.88rem}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <div class="brand">VU · COMPUTER ENGINEERING<small>Operating Systems Theory · BTECCE23501</small></div>
+  <nav aria-label="Main navigation">
+    <a href="#overview">Overview</a><a href="#outcomes">COs</a><a href="#syllabus">Syllabus</a><a href="#schedule">Schedule</a><a href="#resources">Resources</a><a href="#assessment">Assessment</a><a href="#contact">Contact</a>
+  </nav>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+  <div class="eyebrow">Faculty of Science and Technology · Semester V</div>
+  <h1>Operating Systems</h1>
+  <p>Understand how operating systems manage processes, memory, devices and files—and apply these concepts to analyse real-world computing systems.</p>
+  <div class="pills"><span class="pill">Course code: BTECCE23501</span><span class="pill">3 Credits</span><span class="pill">L–T–P: 3–0–0</span><span class="pill">45 Lecture Hours</span></div>
+  <a class="btn" href="#schedule">Explore the course ↓</a>
+</div></section>
+
+<section id="overview"><div class="wrap">
+  <div class="section-head"><h2>Course overview</h2><p class="lead">A foundation in the principles, mechanisms and practical applications of contemporary operating systems.</p></div>
+  <div class="grid">
+    <article class="card"><div class="metric">5</div><h3>Learning units</h3><p>Introduction, process management, CPU scheduling and deadlock, memory management, and I/O and file management.</p></article>
+    <article class="card"><div class="metric">45</div><h3>Teaching hours</h3><p>Five units planned for nine lecture hours each across a 15-week semester.</p></article>
+    <article class="card"><div class="metric">100</div><h3>Total marks</h3><p>Continuous Internal Evaluation (CIE): 50 marks · End-Semester Examination (ESE): 50 marks.</p></article>
+  </div>
+  <p style="margin-top:18px">The course introduces OS structures and services, processes and threads, synchronization, scheduling, deadlocks, memory organization, virtual memory, I/O management and file systems. Case studies connect concepts with Linux and Windows environments.</p>
+</div></section>
+
+<section id="outcomes" style="background:#edf4f9"><div class="wrap">
+  <div class="section-head"><h2>Course outcomes</h2><p class="lead">By the end of the course, students should be able to:</p></div>
+  <div class="outcomes">
+    <div class="outcome"><b>CO1 · Analyse</b><br>Analyse the architecture, functions and services of contemporary operating systems, including RTOS, embedded, mobile and virtualized environments.</div>
+    <div class="outcome"><b>CO2 · Apply</b><br>Apply process-management and synchronization mechanisms to solve concurrency problems using threads, semaphores, mutexes and monitors.</div>
+    <div class="outcome"><b>CO3 · Evaluate</b><br>Evaluate CPU-scheduling and deadlock-handling algorithms using performance parameters and resource-allocation scenarios.</div>
+    <div class="outcome"><b>CO4 · Analyse</b><br>Analyse memory-allocation and virtual-memory techniques using address translation, fragmentation and page-replacement methods.</div>
+    <div class="outcome"><b>CO5 · Evaluate</b><br>Evaluate I/O-management, disk-scheduling and file-system techniques for efficient secondary-storage utilization.</div>
+  </div>
+</div></section>
+
+<section id="syllabus"><div class="wrap">
+  <div class="section-head"><h2>Unit-wise syllabus</h2><p class="lead">Select a unit to view its topics. Each unit is allocated 9 lectures (20% of the theory syllabus).</p></div>
+  <details class="unit" open><summary>Unit I · Introduction to Operating Systems <span>9 Lectures · 20%</span></summary><div class="unit-content"><ul>
+    <li>Operating-system concepts, hardware interaction, goals, functions, services and system calls.</li>
+    <li>Types of operating systems: batch, multiprogramming, time-sharing, parallel, distributed and real-time.</li>
+    <li>Real-time operating systems: concepts, design, architecture and kernel.</li>
+    <li>Embedded systems: components and design cycle.</li>
+    <li>Hypervisors, virtualization, Docker and Kubernetes.</li>
+    <li>Linux commands, shells, shell programming and AWK.</li><li>Android operating system.</li>
+  </ul></div></details>
+  <details class="unit"><summary>Unit II · Process Management <span>9 Lectures · 20%</span></summary><div class="unit-content"><ul>
+    <li>Process concept, process states and process description.</li><li>Threads and multithreading models; SMP; user-level and kernel-level threads; microkernels.</li>
+    <li>Concurrency and mutual exclusion: hardware, software and operating-system support.</li><li>Semaphores, mutexes and monitors.</li>
+    <li>Classical synchronization problems: Readers–Writers, Producer–Consumer and Dining Philosophers.</li>
+  </ul></div></details>
+  <details class="unit"><summary>Unit III · CPU Scheduling and Deadlock <span>9 Lectures · 20%</span></summary><div class="unit-content"><ul>
+    <li>Scheduling types and criteria.</li><li>FCFS, SJF, Round Robin, Virtual Round Robin and Priority scheduling.</li>
+    <li>Real-time scheduling: EDF, RMS and LLF.</li><li>Deadlock principles, prevention, avoidance, detection and recovery.</li>
+    <li>Linux and Windows case studies.</li>
+  </ul></div></details>
+  <details class="unit"><summary>Unit IV · Memory Management <span>9 Lectures · 20%</span></summary><div class="unit-content"><ul>
+    <li>Memory-management requirements; fixed and dynamic partitioning; buddy system.</li><li>First-fit, best-fit and worst-fit; internal/external fragmentation; swapping and thrashing.</li>
+    <li>Virtual memory, address translation, paging, page tables and TLB.</li><li>Segmentation and working set.</li>
+    <li>FIFO, LRU and Optimal page-replacement algorithms.</li><li>Linux and Windows case studies.</li>
+  </ul></div></details>
+  <details class="unit"><summary>Unit V · I/O and File Management <span>9 Lectures · 20%</span></summary><div class="unit-content"><ul>
+    <li>I/O devices, serial and parallel interfaces, I/O design issues and buffering.</li>
+    <li>Disk scheduling: FCFS, SCAN, C-SCAN and SSTF.</li><li>File organization, directories, sharing and record blocking.</li>
+    <li>Secondary-storage management, free-space management and security.</li><li>File-system structure and implementation; memory-mapped files; Linux file systems.</li>
+  </ul></div></details>
+</div></section>
+
+<section id="schedule" style="background:#edf4f9"><div class="wrap">
+  <div class="section-head"><h2>Weekly schedule</h2><p class="lead">Indicative 15-week plan · 3 lecture hours per week. Actual dates may be aligned with the university academic calendar.</p></div>
+  <div style="overflow-x:auto"><table><thead><tr><th>Week</th><th>Unit</th><th>Planned coverage</th><th>Learning activity / evidence</th></tr></thead><tbody>
+    <tr><td>1</td><td>Unit I</td><td>OS concepts, goals, functions, services, system calls</td><td>OS feature mapping and concept check</td></tr>
+    <tr><td>2</td><td>Unit I</td><td>OS types; RTOS concepts, architecture and kernel</td><td>Compare OS types; RTOS scenario discussion</td></tr>
+    <tr><td>3</td><td>Unit I</td><td>Embedded systems, hypervisors, containers, Linux, AWK, Android</td><td>Linux exploration; Unit I assignment</td></tr>
+    <tr><td>4</td><td>Unit II</td><td>Processes, process states, process description, threads</td><td>Process-state tracing</td></tr>
+    <tr><td>5</td><td>Unit II</td><td>Multithreading models, SMP, concurrency, mutual exclusion</td><td>Concurrency trace and spot-the-error</td></tr>
+    <tr><td>6</td><td>Unit II</td><td>Semaphores, mutexes, monitors and classical problems</td><td>Synchronization problem-solving; Unit II assignment</td></tr>
+    <tr><td>7</td><td>Unit III</td><td>Scheduling criteria, FCFS, SJF, RR, Virtual RR, Priority</td><td>Gantt charts and turnaround-time calculations</td></tr>
+    <tr><td>8</td><td>Unit III</td><td>EDF, RMS, LLF and real-time scheduling</td><td>Real-time scheduling scenarios</td></tr>
+    <tr><td>9</td><td>Unit III</td><td>Deadlock handling and OS case studies</td><td>Resource-allocation analysis; Unit III assignment</td></tr>
+    <tr><td>10</td><td>Unit IV</td><td>Partitioning, buddy system, allocation strategies, fragmentation</td><td>Memory-allocation challenge</td></tr>
+    <tr><td>11</td><td>Unit IV</td><td>Swapping, thrashing, virtual memory, paging, TLB, segmentation</td><td>Address-translation exercises</td></tr>
+    <tr><td>12</td><td>Unit IV</td><td>Working set, page replacement, Linux/Windows case studies</td><td>Page-fault comparison; Unit IV assignment</td></tr>
+    <tr><td>13</td><td>Unit V</td><td>I/O devices, interfaces, design issues and buffering</td><td>I/O pathway analysis</td></tr>
+    <tr><td>14</td><td>Unit V</td><td>Disk scheduling, file organization, directories and sharing</td><td>Disk-scheduling calculations</td></tr>
+    <tr><td>15</td><td>Unit V</td><td>Secondary storage, free space, security and file systems</td><td>File-system case analysis; Unit V assignment</td></tr>
+  </tbody></table></div>
+</div></section>
+
+<section id="resources"><div class="wrap">
+  <div class="section-head"><h2>Learning resources</h2><p class="lead">Core texts, reference books and selected official online documentation.</p></div>
+  <div class="resource-list">
+    <div class="resource"><a href="https://www.pearson.com/" target="_blank" rel="noopener">William Stallings · Operating Systems: Internals and Design Principles</a><p>Prescribed textbook; consult the edition specified by the department/library.</p></div>
+    <div class="resource"><a href="https://www.wiley.com/" target="_blank" rel="noopener">Silberschatz, Galvin &amp; Gagne · Operating System Concepts</a><p>Prescribed textbook; use the institution/library copy for chapter-wise reading.</p></div>
+    <div class="resource"><a href="https://www.kernel.org/doc/html/latest/" target="_blank" rel="noopener">Linux Kernel Documentation</a><p>Official technical documentation for Linux kernel concepts.</p></div>
+    <div class="resource"><a href="https://man7.org/linux/man-pages/" target="_blank" rel="noopener">Linux man-pages</a><p>Manual pages for Linux system calls, library functions and commands.</p></div>
+    <div class="resource"><a href="https://www.gnu.org/software/gawk/manual/" target="_blank" rel="noopener">GNU AWK User’s Guide</a><p>Reference for AWK syntax and text-processing examples.</p></div>
+    <div class="resource"><a href="https://docs.docker.com/" target="_blank" rel="noopener">Docker Documentation</a><p>Official guides for containers and container workflows.</p></div>
+    <div class="resource"><a href="https://kubernetes.io/docs/home/" target="_blank" rel="noopener">Kubernetes Documentation</a><p>Official learning and reference material for Kubernetes.</p></div>
+    <div class="resource"><a href="https://developer.android.com/" target="_blank" rel="noopener">Android Developers</a><p>Platform architecture and Android development documentation.</p></div>
+    <div class="resource"><a href="https://www.pearson.com/" target="_blank" rel="noopener">Tanenbaum · Modern Operating Systems</a><p>Additional reference for OS architecture and design.</p></div>
+    <div class="resource"><a href="https://www.oreilly.com/" target="_blank" rel="noopener">Sumitabha Das · Unix Concepts and Applications</a><p>Additional reference for Unix commands and shell programming.</p></div>
+  </div>
+  <p class="note" style="margin-top:14px">Note: Online links point to publisher or official documentation sites; they do not imply that copyrighted textbook PDFs are freely available.</p>
+</div></section>
+
+<section id="assessment" style="background:#edf4f9"><div class="wrap">
+  <div class="section-head"><h2>Assessment plan</h2><p class="lead">Theory course evaluation: 100 marks in total.</p></div>
+  <div class="assessment">
+    <article class="card"><h3>Continuous Internal Evaluation (CIE)</h3><div class="metric">50 marks</div><ul>
+      <li>Quizzes and concept checks — 10</li><li>Algorithmic assignments — 10</li><li>Case study — 10</li><li>AI-supported simulation / analytical activity — 10</li><li>Individual viva / reflection — 10</li>
+    </ul><p class="note">Proposed distribution for course planning; confirm against the approved university assessment scheme.</p></article>
+    <article class="card"><h3>End-Semester Examination (ESE)</h3><div class="metric">50 marks</div><p>End-semester theory examination as per the university examination pattern and approved question-paper blueprint.</p><p>Questions may assess conceptual understanding, algorithm tracing, numerical problem-solving, analysis and evaluation across all five units.</p></article>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="contact">
+  <h2>Contact the instructor</h2>
+  <p><b>Course:</b> Operating Systems Theory (BTECCE23501)<br><b>Department:</b> Computer Engineering, Faculty of Science and Technology<br><b>Institution:</b> Vishwakarma University, Pune<br><b>Instructor:</b> [Add instructor name and designation]<br><b>Email:</b> [Add official university email]<br><b>Office / consultation hours:</b> [Add room and consultation timings]</p>
+  <p class="note" style="color:#c9d9e8">Please use your official university email for course-related queries. Contact details should be completed before publishing this page publicly.</p>
+</div></div></section>
+</main>
+<footer><div class="wrap">Operating Systems Theory · BTECCE23501 · Vishwakarma University, Pune<br>Course information is indicative and subject to the approved syllabus and academic calendar.</div></footer>
+</body></html>
